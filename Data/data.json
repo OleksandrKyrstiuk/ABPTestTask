@@ -1,0 +1,123 @@
+{
+  "Halls": [
+    {
+      "Id": "3d82b965-f070-49cd-b5ba-e5ec5a3599bb",
+      "Name": "\u0417\u0430\u043B \u0410",
+      "Capacity": 100,
+      "ServiceIds": [],
+      "BasePricePerHour": 2000
+    },
+    {
+      "Id": "17acede9-b57a-4245-a5d1-a3d007bede0f",
+      "Name": "\u0417\u0430\u043B \u0411",
+      "Capacity": 50,
+      "ServiceIds": [
+        "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+        "cccccccc-cccc-cccc-cccc-cccccccccccc"
+      ],
+      "BasePricePerHour": 3500
+    },
+    {
+      "Id": "a8061532-3777-4df7-a1e8-cebee16ad390",
+      "Name": "\u0417\u0430\u043B \u0421",
+      "Capacity": 30,
+      "ServiceIds": [
+        "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+      ],
+      "BasePricePerHour": 1500
+    },
+    {
+      "Id": "47363ca1-4a53-4b74-b6c3-3052c62b4477",
+      "Name": "Gig Hall",
+      "Capacity": 250,
+      "ServiceIds": [
+        "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+        "cccccccc-cccc-cccc-cccc-cccccccccccc",
+        "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+      ],
+      "BasePricePerHour": 4000
+    }
+  ],
+  "Services": [
+    {
+      "Id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+      "Name": "\u041F\u0440\u043E\u0454\u043A\u0442\u043E\u0440",
+      "Price": 500
+    },
+    {
+      "Id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "Name": "Wi-Fi",
+      "Price": 300
+    },
+    {
+      "Id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+      "Name": "\u0417\u0432\u0443\u043A",
+      "Price": 700
+    }
+  ],
+  "Bookings": [
+    {
+      "Id": "c7dbc48f-c9f6-4f7a-9d41-4332e47f4b3d",
+      "HallId": "3d82b965-f070-49cd-b5ba-e5ec5a3599bb",
+      "StartTime": "2026-08-27T17:00:00.24Z",
+      "DurationHours": 4,
+      "ServiceIds": [],
+      "TotalPrice": 6800.00
+    },
+    {
+      "Id": "dd6d923d-a053-473c-9eb3-f615ce8b474c",
+      "HallId": "3d82b965-f070-49cd-b5ba-e5ec5a3599bb",
+      "StartTime": "2026-08-28T07:00:00",
+      "DurationHours": 2,
+      "ServiceIds": [],
+      "TotalPrice": 3600.00
+    },
+    {
+      "Id": "0fffb941-a2d5-4945-9ee8-dbb32b12fd48",
+      "HallId": "17acede9-b57a-4245-a5d1-a3d007bede0f",
+      "StartTime": "2026-08-27T10:00:00",
+      "DurationHours": 3,
+      "ServiceIds": [
+        "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"
+      ],
+      "TotalPrice": 11325.00
+    },
+    {
+      "Id": "92524323-ee1c-4aac-bf0e-7bdd93def9fc",
+      "HallId": "17acede9-b57a-4245-a5d1-a3d007bede0f",
+      "StartTime": "2026-08-28T12:00:00",
+      "DurationHours": 2,
+      "ServiceIds": [
+        "cccccccc-cccc-cccc-cccc-cccccccccccc",
+        "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"
+      ],
+      "TotalPrice": 9050.00
+    },
+    {
+      "Id": "018420c5-cfc6-420b-8df1-9c034d75d356",
+      "HallId": "a8061532-3777-4df7-a1e8-cebee16ad390",
+      "StartTime": "2026-08-27T20:00:00",
+      "DurationHours": 2,
+      "ServiceIds": [
+        "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+      ],
+      "TotalPrice": 2900.00
+    },
+    {
+      "Id": "e1865413-f0c9-4713-bad4-dc3572ed7bf2",
+      "HallId": "a8061532-3777-4df7-a1e8-cebee16ad390",
+      "StartTime": "2026-08-29T15:00:00",
+      "DurationHours": 3,
+      "ServiceIds": [],
+      "TotalPrice": 4500.0
+    },
+    {
+      "Id": "ad476753-24d4-4cef-9bc0-d3af98e901e9",
+      "HallId": "3d82b965-f070-49cd-b5ba-e5ec5a3599bb",
+      "StartTime": "2026-08-30T12:00:16.658Z",
+      "DurationHours": 6,
+      "ServiceIds": [],
+      "TotalPrice": 12600.00
+    }
+  ]
+}
